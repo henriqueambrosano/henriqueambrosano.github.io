@@ -23,9 +23,9 @@
   transition: all 0.3s ease;
 }
 
-.navbar.sticky{
-    padding: 15px 0;
-    background: crimson;
+.navbar.sticky {
+  padding: 15px 0;
+  background: crimson;
 }
 
 .navbar .max-width {
@@ -45,8 +45,8 @@
   transition: all 0.3s ease;
 }
 
-.navbar.sticky .logo a span{
-    color: #fff;
+.navbar.sticky .logo a span {
+  color: #fff;
 }
 
 .navbar .menu li {
@@ -66,8 +66,17 @@
   color: crimson;
 }
 
-.navbar.sticky .menu li a:hover{
-    color: #fff;
+.navbar.sticky .menu li a:hover {
+  color: #fff;
+}
+
+/* menu btn styling */
+
+.menu-btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 23px;
+  display: none;
 }
 
 /* home section styling */
@@ -103,4 +112,47 @@
 .home .home-content .text-3 span {
   color: crimson;
   font-weight: 500;
+}
+
+/* responsive media query  */
+
+@media (max-width: 947px) {
+  .max-width {
+    padding: 0 50px;
+  }
+
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+
+  .menu-btn i.active:before {
+    content: '\f00d';
+  }
+
+  .navbar .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: rgba(17, 17, 17, 0.92);
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menu.active {
+    left: 0;
+  }
+
+  .navbar .menu li {
+    display: block;
+  }
+
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
 }
