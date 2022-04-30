@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Henrique Ambrosano</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://kit.fontawesome.com/e778be89d9.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link
@@ -17,19 +18,22 @@
     <script src="./script.js" defer></script>
   </head>
   <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
     <header>
       <nav class="navbar">
         <div class="max-width">
           <div class="logo">
-            <a href="">Portfo<span>lio.</span></a>
+            <a href="#">Portfo<span>lio.</span></a>
           </div>
           <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Teams</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home" class="menu-btn">Home</a></li>
+            <li><a href="#about" class="menu-btn">About</a></li>
+            <li><a href="#services" class="menu-btn">Services</a></li>
+            <li><a href="#skills" class="menu-btn">Skills</a></li>
+            <li><a href="#teams" class="menu-btn">Teams</a></li>
+            <li><a href="#contact" class="menu-btn">Contact</a></li>
           </ul>
           <div class="menu-btn">
             <i class="fa-solid fa-bars"></i>
@@ -45,7 +49,7 @@
           <div class="home-content">
             <div class="text-1">Hello, my name is</div>
             <div class="text-2">Henrique Ambrosano</div>
-            <div class="text-3">and I'm a <span>Developer</span></div>
+            <div class="text-3">and I'm a <span class="typing"></span></div>
             <a href="">Hire me</a>
           </div>
         </div>
@@ -61,7 +65,7 @@
             </div>
             <div class="column right">
               <div class="text">
-                I'm Henrique and I'm a <span>Developer</span>
+                I'm Henrique and I'm a <span class="typing-2"></span>
               </div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -261,7 +265,11 @@
           <div class="contact-content">
             <div class="column left">
               <div class="text">Get in Touch</div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam temporibus labore veniam voluptate ex non eveniet natus, corrupti vero fugiat.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam temporibus labore veniam voluptate ex non eveniet
+                natus, corrupti vero fugiat.
+              </p>
               <div class="icons">
                 <div class="row">
                   <i class="fas fa-user"></i>
@@ -291,17 +299,21 @@
               <form action="#">
                 <div class="fields">
                   <div class="field name">
-                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Name" required />
                   </div>
                   <div class="field email">
-                    <input type="email" placeholder="Email" required>
+                    <input type="email" placeholder="Email" required />
                   </div>
                 </div>
                 <div class="field">
-                  <input type="text" placeholder="Subject" required>
+                  <input type="text" placeholder="Subject" required />
                 </div>
                 <div class="field textarea">
-                  <textarea cols="30" rows="10" placeholder="Describe project..." ></textarea>
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    placeholder="Describe project..."
+                  ></textarea>
                 </div>
                 <div class="button">
                   <button type="submit">Send message</button>
@@ -316,7 +328,10 @@
     <!-- footer section -->
 
     <footer>
-      
+      <span
+        >Created By <a href="#">Henrique Ambrosano</a> |
+        <span class="far fa-copyright"></span> 2022 All rights reserved.</span
+      >
     </footer>
   </body>
 </html>
