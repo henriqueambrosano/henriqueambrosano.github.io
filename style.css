@@ -220,7 +220,7 @@ section .title::after {
 /* about section styling */
 
 .about .title::after {
-  content: 'who i am';
+  content: 'about me';
 }
 
 .about .about-content .left {
@@ -329,7 +329,7 @@ section .title::after {
 /* skills section styling */
 
 .skills .title::after {
-  content: 'what i kwnow';
+  content: 'what i know';
 }
 
 .skills .skills-content .column {
@@ -397,32 +397,32 @@ section .title::after {
 }
 
 .skills-content .right .html::before {
-  width: 40%;
+  width: 50%;
 }
 
 .skills-content .right .css::before {
-  width: 30%;
-}
-
-.skills-content .right .js::before {
   width: 40%;
 }
 
-.skills-content .right .python::before {
-  width: 20%;
+.skills-content .right .js::before {
+  width: 45%;
 }
 
-.skills-content .right .mysql::before {
-  width: 15%;
+.skills-content .right .python::before {
+  width: 10%;
+}
+
+.skills-content .right .solidity::before {
+  width: 5%;
 }
 
 .skills-content .right .react::before {
-  width: 10%;
+  width: 40%;
 }
 
 /* teams section styling */
 .teams .title::after {
-  content: 'who with me';
+  content: "what i've done";
 }
 
 .teams .carousel .card {
@@ -509,6 +509,7 @@ section .title::after {
 }
 
 .contact .contact-content .left p {
+  max-width: 65%;
   text-align: justify;
 }
 
@@ -530,6 +531,15 @@ section .title::after {
   font-size: 25px;
   color: crimson;
 }
+
+.contact .contact-content .row .link {
+  text-decoration: underline;
+}
+
+.contact .contact-content .row .link:hover {
+  color: crimson;
+}
+
 
 .contact .contact-content .info .head {
   font-weight: 500;
