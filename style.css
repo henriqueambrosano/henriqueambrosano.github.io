@@ -285,7 +285,7 @@ section .title::after {
 .services .title:after,
 .teams .title::after {
   background: #111;
-  content: 'what i provide';
+  content: 'what I provide';
 }
 
 .services .serv-content .card {
@@ -326,10 +326,14 @@ section .title::after {
   margin: 10px 0 7px 0;
 }
 
+.services .serv-content .card p {
+  text-align: justify;
+}
+
 /* skills section styling */
 
 .skills .title::after {
-  content: 'what i know';
+  content: 'what I know';
 }
 
 .skills .skills-content .column {
@@ -746,6 +750,12 @@ footer span a:hover {
   .services .serv-content .card {
     width: 100%;
   }
+  
+  .contact .contact-content .left p {
+  max-width: 100%;
+  text-align: justify;
+}
+
 }
 
 @media (max-width: 500px) {
