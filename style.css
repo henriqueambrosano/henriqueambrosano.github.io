@@ -169,7 +169,7 @@ section {
 .about,
 .services,
 .skills,
-.teams,
+.projects,
 .contact,
 footer {
   font-family: 'Poppins', sans-serif;
@@ -272,18 +272,18 @@ section .title::after {
 
 /* services section styling */
 .services,
-.teams {
+.projects {
   background: #111;
   color: #fff;
 }
 
 .services .title:before,
-.teams .title::before {
+.projects .title::before {
   background: #fff;
 }
 
 .services .title:after,
-.teams .title::after {
+.projects .title::after {
   background: #111;
   content: 'what I provide';
 }
@@ -424,12 +424,21 @@ section .title::after {
   width: 40%;
 }
 
-/* teams section styling */
-.teams .title::after {
+/* projects section styling */
+.projects .title::after {
   content: "what i've done";
 }
 
-.teams .carousel .card {
+.projects .carousel .card .box {
+  height: 350px;
+}
+
+.projects .carousel .card a {
+  text-decoration: none;
+  color: white;
+}
+
+.projects .carousel .card {
   background: #222;
   border-radius: 6px;
   padding: 25px 35px;
@@ -437,11 +446,11 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover {
+.projects .carousel .card:hover {
   background: crimson;
 }
 
-.teams .carousel .card .box {
+.projects .carousel .card .box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -449,17 +458,17 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover .box {
+.projects .carousel .card:hover .box {
   transform: scale(1.05);
 }
 
-.teams .carousel .card .text {
+.projects .carousel .card .text {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
 
-.teams .carousel .card img {
+.projects .carousel .card img {
   height: 150px;
   width: 150px;
   object-fit: cover;
@@ -468,7 +477,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover img {
+.projects .carousel .card:hover img {
   border-color: #fff;
 }
 
