@@ -38,7 +38,27 @@ html {
   justify-content: space-between;
 }
 
+.navbar .max-width .language {
+  display: flex;
+}
+
+.navbar .max-width .language img {
+  cursor: pointer;
+  height: 35px;
+  margin-right: 5px;
+}
+
+.navbar .max-width .language img:hover {
+  transform: scale(1.1);
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
 .navbar .logo a {
+  margin-left: 10px;
   color: #fff;
   font-size: 35px;
   font-weight: 600;
@@ -248,6 +268,10 @@ section .title::after {
   color: crimson;
 }
 
+.about .about-content .right .text .div-type {
+  display: inline;
+}
+
 .about .about-content .right p {
   text-align: justify;
 }
@@ -422,6 +446,10 @@ section .title::after {
 
 .skills-content .right .react::before {
   width: 40%;
+}
+
+.skills-content .right .vue::before {
+  width: 10%;
 }
 
 /* projects section styling */
