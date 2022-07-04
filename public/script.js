@@ -22,32 +22,6 @@ $(document).ready(() => {
     $('.navbar .menu').toggleClass('active');
     $('.menu-btn i').toggleClass('active');
   });
-
-  // typing animation script using typed.js
-  const typed = new Typed('.typing', {
-    strings: [
-      'Front-end Developer',
-      'Back-end Developer',
-      'Freelancer',
-      'Programer',
-    ],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true,
-  });
-
-  const typed2 = new Typed('.typing-2', {
-    strings: [
-      'Front-end Developer',
-      'Back-end Developer',
-      'Freelancer',
-      'Programer',
-    ],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true,
-  });
-
   // owl carousel script
   $('.owl-carousel').owlCarousel({
     margin: 20,

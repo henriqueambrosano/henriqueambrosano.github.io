@@ -159,9 +159,10 @@ html {
   margin: 5px 0;
 }
 
-.home .home-content .text-3 span {
+.Typewriter {
   color: crimson;
   font-weight: 500;
+  display: inline;
 }
 
 .home .home-content a {
@@ -262,14 +263,6 @@ section .title::after {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
-}
-
-.about .about-content .right .text span {
-  color: crimson;
-}
-
-.about .about-content .right .text .div-type {
-  display: inline;
 }
 
 .about .about-content .right p {

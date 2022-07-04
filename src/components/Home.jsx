@@ -1,4 +1,5 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect';
 import { connect } from 'react-redux';
 
 class Home extends React.Component {
@@ -12,7 +13,21 @@ class Home extends React.Component {
               <div className="text-1">Olá, meu nome é</div>
               <div className="text-2">Henrique Ambrosano</div>
               <div className="text-3">
-                e eu sou <span className="typing"></span>
+                e eu sou{' '}
+                <Typewriter
+                  options={{
+                    strings: [
+                      'Front-end Developer',
+                      'Back-end Developer',
+                      'Freelancer',
+                      'Programer',
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    pauseFor: 900,
+                    delay: 100,
+                  }}
+                />
               </div>
             </div>
           ) : selectedLanguage === 'ES' ? (
@@ -20,7 +35,21 @@ class Home extends React.Component {
               <div className="text-1">Olá, mi nombre es</div>
               <div className="text-2">Henrique Ambrosano</div>
               <div className="text-3">
-                y yo soy <span className="typing"></span>
+                y yo soy{' '}
+                <Typewriter
+                  options={{
+                    strings: [
+                      'Front-end Developer',
+                      'Back-end Developer',
+                      'Freelancer',
+                      'Programer',
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    pauseFor: 900,
+                    delay: 100,
+                  }}
+                />
               </div>
             </div>
           ) : (
@@ -28,7 +57,21 @@ class Home extends React.Component {
               <div className="text-1">Hello, my name is</div>
               <div className="text-2">Henrique Ambrosano</div>
               <div className="text-3">
-                and I am <span className="typing"></span>
+                and I am{' '}
+                <Typewriter
+                  options={{
+                    strings: [
+                      'Front-end Developer',
+                      'Back-end Developer',
+                      'Freelancer',
+                      'Programer',
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    pauseFor: 900,
+                    delay: 100,
+                  }}
+                />
               </div>
             </div>
           )}
