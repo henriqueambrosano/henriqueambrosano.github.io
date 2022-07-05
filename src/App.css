@@ -502,14 +502,13 @@ section .title::after {
   border-color: #fff;
 }
 
-.owl-dots {
-  text-align: center;
-  margin-top: 20px;
+.swiper {
+  padding: 50px 40px !important;
 }
 
-.owl-dot {
-  height: 13px;
-  width: 13px;
+.swiper-pagination-bullet {
+  height: 13px !important;
+  width: 13px !important;
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
@@ -517,12 +516,12 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-.owl-dot.active {
+.swiper-pagination-bullet-active {
   width: 35px;
   border-radius: 14px;
 }
-.owl-dot.active,
-.owl-dot:hover {
+.swiper-pagination-bullet-active,
+.swiper-pagination-bullet-active:hover {
   background: crimson !important;
 }
 

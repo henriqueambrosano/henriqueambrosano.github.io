@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Provider } from 'react-redux'
 import store from './redux/index'
-import { About, Contact, Header, Home, Projects, Services, Skills } from './imports'
+import { About, Contact, Header, Home, Projects, Services, Skills, ScrollUpBtn } from './imports'
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <ScrollUpBtn />
     </Provider>
   );
 }
