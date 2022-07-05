@@ -11,10 +11,4 @@ $(document).ready(() => {
       $('.scroll-up-btn').removeClass('show');
     }
   });
-
-  // slide-up script
-  $('.scroll-up-btn').click(() => {
-    $('html').animate({ scrollTop: 0 });
-  });
-
 });

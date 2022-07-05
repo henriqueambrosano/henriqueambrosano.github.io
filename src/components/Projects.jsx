@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import {
   shoppingCart,
@@ -11,11 +11,9 @@ import {
 } from '../images/imageExports';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
 // import required modules
 import { Pagination } from 'swiper';
 
