@@ -77,7 +77,7 @@ class Contact extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="column right">
+              {/* <div className="column right">
                 <div className="text">Envie uma mensagem</div>
                 <form action="#">
                   <div className="fields">
@@ -102,7 +102,7 @@ class Contact extends React.Component {
                     <button type="submit">Enviar mensagem</button>
                   </div>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
         ) : selectedLanguage === 'ES' ? (
@@ -175,7 +175,7 @@ class Contact extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="column right">
+              {/* <div className="column right">
                 <div className="text">Enviar un mensaje</div>
                 <form action="#">
                   <div className="fields">
@@ -200,7 +200,7 @@ class Contact extends React.Component {
                     <button type="submit">Enviar mensaje</button>
                   </div>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
         ) : (
@@ -273,7 +273,7 @@ class Contact extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="column right">
+              {/* <div className="column right">
                 <div className="text">Send a message</div>
                 <form action="#">
                   <div className="fields">
@@ -298,7 +298,7 @@ class Contact extends React.Component {
                     <button type="submit">Send message</button>
                   </div>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
         )}
