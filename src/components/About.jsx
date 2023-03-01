@@ -34,7 +34,7 @@ class About extends React.Component {
                   />
                 </div>
                 <p>
-                  Falando mais sobre mim, tenho 25 anos, atualmente sou
+                  Falando mais sobre mim, tenho 26 anos, atualmente sou
                   estudante da Trybe(comecei em fevereiro de 2022), que é uma
                   escola de programação que forma desenvolvedores Full-Stack,
                   minha previsão de formatura é em fevereiro de 2023, porem
@@ -83,7 +83,7 @@ class About extends React.Component {
                   />
                 </div>
                 <p>
-                  Hablando más de mí, tengo 25 años, actualmente soy estudiante
+                  Hablando más de mí, tengo 26 años, actualmente soy estudiante
                   en Trybe (comencé en febrero de 2022), que es una escuela de
                   programación que entrena a desarrolladores Full-Stack, mi
                   pronóstico de graduación es en febrero de 2023, pero ahora
@@ -132,7 +132,7 @@ class About extends React.Component {
                   />
                 </div>
                 <p>
-                  Talking more about myself, I am 25 years old, currently I am
+                  Talking more about myself, I am 26 years old, currently I am
                   student at Trybe (I started in Feb 2022), which is a
                   programming school that trains Full-Stack developers, my
                   graduation forecast is in february 2023, but right now I want
