@@ -18,16 +18,34 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper';
 
 class Projects extends React.Component {
+  state = { slidesPerView: 3 }
+  componentDidMount() {
+    this.handleResize();
+    window.addEventListener("resize", this.handleResize);
+  }
+
+  handleResize = () => {
+    const screenWidth = window.innerWidth;
+    let slidesPerView;
+    if (screenWidth > 350) slidesPerView = 1 
+    if (screenWidth > 725) slidesPerView = 2
+    if (screenWidth > 1090) slidesPerView = 3
+    if (screenWidth > 1500) slidesPerView = 4
+
+    this.setState({ slidesPerView })
+  }
+
   render() {
     const { selectedLanguage } = this.props;
+    const { slidesPerView } = this.state;
     return (
       <section className="projects" id="projects">
         {selectedLanguage === 'PT-BR' ? (
           <div className="max-width">
             <h2 className="title">Meus projetos</h2>
             <Swiper
-              slidesPerView={3}
-              spaceBetween={30}
+              slidesPerView={slidesPerView}
+              spaceBetween={20}
               pagination={{
                 clickable: true,
               }}
@@ -142,8 +160,8 @@ class Projects extends React.Component {
           <div className="max-width">
             <h2 className="title">Mis proyectos</h2>
             <Swiper
-              slidesPerView={3}
-              spaceBetween={30}
+              slidesPerView={slidesPerView}
+              spaceBetween={20}
               pagination={{
                 clickable: true,
               }}
@@ -256,8 +274,8 @@ class Projects extends React.Component {
           <div className="max-width">
             <h2 className="title">My projects</h2>
             <Swiper
-              slidesPerView={3}
-              spaceBetween={30}
+              slidesPerView={slidesPerView}
+              spaceBetween={20}
               pagination={{
                 clickable: true,
               }}
