@@ -112,9 +112,8 @@ class Services extends React.Component {
                   <i className="fas fa-code"></i>
                   <div className="text">From 0 to 60</div>
                   <p>
-                    I develop your entire page from scratch, delivering all the
-                    possible functionalities, with a light operation and
-                    fast that can be browsed on any device.
+                    I develop your entire page from scratch, delivering a fast page that can be used on any device with all the
+                    possible functionalities.
                   </p>
                 </div>
               </div>
