@@ -9,7 +9,7 @@ class Contact extends React.Component {
       <section className="contact" id="contact">
         {selectedLanguage === 'PT-BR' ? (
           <div className="max-width">
-            <h2 className="title">Contact me</h2>
+            <h2 className="title">Entre em contato</h2>
             <div className="contact-content">
               <div className="column left">
                 <div className="text">Entre em contato</div>
