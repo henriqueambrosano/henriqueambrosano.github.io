@@ -17,39 +17,38 @@ class Skills extends React.Component {
                   alguns cursos livres como codecademy, udemy, programadorBr,
                   etc.
                   <br />
-                  As linguagens que estudei até agora são, HTML, CSS,
-                  JavaScript, React, Python, Solidity. Ao lado destaco as que
-                  possuo mais experiência e habilidade.
-                  <br />A barra de porcentagem é para representar o quanto
-                  considero que domino aquela linguagem.
+                  As linguagens e frameworks que estudei até agora são, HTML, CSS,
+                  JavaScript, React, Python, Solidity. 
+                  <br />
+                  O gráfico mostra quão habilidoso sou em cada.
                 </p>
               </div>
               <div className="column right">
                 <div className="bars">
                   <div className="info">
                     <span>HTML</span>
-                    <span>50%</span>
+                    <span>70%</span>
                   </div>
                   <div className="line html"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>CSS</span>
-                    <span>40%</span>
+                    <span>70%</span>
                   </div>
                   <div className="line css"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>JavaScript</span>
-                    <span>45%</span>
+                    <span>55%</span>
                   </div>
                   <div className="line js"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>Python</span>
-                    <span>10%</span>
+                    <span>20%</span>
                   </div>
                   <div className="line python"></div>
                 </div>
@@ -70,7 +69,7 @@ class Skills extends React.Component {
                 <div className="bars">
                   <div className="info">
                     <span>VueJS</span>
-                    <span>10%</span>
+                    <span>60%</span>
                   </div>
                   <div className="line vue"></div>
                 </div>
@@ -88,39 +87,38 @@ class Skills extends React.Component {
                   algunos cursos gratuitos como codecademy, udemy, programadorBr,
                   etc.
                   <br />
-                  Los lenguajes que he estudiado hasta ahora son HTML, CSS,
-                  JavaScript, React, Python, Solidity. Al lado, destaco los que
-                  tengo mas experiencia y habilidad.
-                  <br />La barra de porcentaje es para representar cuánto
-                  creo que domino ese idioma.
+                  Los lenguajes y frameworks que he estudiado hasta ahora son HTML, CSS,
+                  JavaScript, React, Python, Solidity. 
+                  <br />
+                  El gráfico muestra qué tan hábil soy en cada uno.
                 </p>
               </div>
               <div className="column right">
                 <div className="bars">
                   <div className="info">
                     <span>HTML</span>
-                    <span>50%</span>
+                    <span>70%</span>
                   </div>
                   <div className="line html"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>CSS</span>
-                    <span>40%</span>
+                    <span>70%</span>
                   </div>
                   <div className="line css"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>JavaScript</span>
-                    <span>45%</span>
+                    <span>55%</span>
                   </div>
                   <div className="line js"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>Python</span>
-                    <span>10%</span>
+                    <span>20%</span>
                   </div>
                   <div className="line python"></div>
                 </div>
@@ -141,7 +139,7 @@ class Skills extends React.Component {
                 <div className="bars">
                   <div className="info">
                     <span>VueJS</span>
-                    <span>10%</span>
+                    <span>60%</span>
                   </div>
                   <div className="line vue"></div>
                 </div>
@@ -159,39 +157,38 @@ class Skills extends React.Component {
                   some free courses like codecademy, udemy, programadorBr,
                   etc.
                   <br />
-                  The languages I have studied so far are HTML, CSS,
-                  JavaScript, React, Python, Solidity. At the side, I highlight those
-                  I have more experience and skill.
-                  <br />The percentage bar is to represent how much
-                  I think I master that language.
+                  The languages and frameworks I have studied so far are HTML, CSS,
+                  JavaScript, React, Python, Solidity.
+                  <br />
+                  The graph shows how skilled I'm at each one.
                 </p>
               </div>
               <div className="column right">
                 <div className="bars">
                   <div className="info">
                     <span>HTML</span>
-                    <span>50%</span>
+                    <span>70%</span>
                   </div>
                   <div className="line html"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>CSS</span>
-                    <span>40%</span>
+                    <span>70%</span>
                   </div>
                   <div className="line css"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>JavaScript</span>
-                    <span>45%</span>
+                    <span>55%</span>
                   </div>
                   <div className="line js"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>Python</span>
-                    <span>10%</span>
+                    <span>20%</span>
                   </div>
                   <div className="line python"></div>
                 </div>
@@ -212,7 +209,7 @@ class Skills extends React.Component {
                 <div className="bars">
                   <div className="info">
                     <span>VueJS</span>
-                    <span>10%</span>
+                    <span>60%</span>
                   </div>
                   <div className="line vue"></div>
                 </div>
