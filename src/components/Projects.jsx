@@ -73,7 +73,7 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://henrique-ambrosano-music-player.vercel.app/"
+                    href="https://henriqueambrosano-music-player.vercel.app/"
                   >
                     <div className="box">
                       <img src={trybeTunes} alt="" />
