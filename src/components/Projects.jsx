@@ -189,7 +189,7 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://github.com/henriqueambrosano"
+                    href="https://henriqueambrosano-music-player.vercel.app/"
                   >
                     <div className="box">
                       <img src={trybeTunes} alt="" />
@@ -303,7 +303,7 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://github.com/henriqueambrosano"
+                    href="https://henriqueambrosano-music-player.vercel.app/"
                   >
                     <div className="box">
                       <img src={trybeTunes} alt="" />
