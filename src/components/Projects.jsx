@@ -2,7 +2,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import {
-  shoppingCart,
+  memoryGame,
   trybeTunes,
   tryunfo,
   shoppingCartReact,
@@ -56,14 +56,13 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://github.com/henriqueambrosano"
+                    href="https://henriquememorygame.vercel.app/"
                   >
                     <div className="box">
-                      <img src={shoppingCart} alt="" />
-                      <div className="text">Shopping Cart</div>
+                      <img src={memoryGame} alt="" />
+                      <div className="text">Jogo da memória</div>
                       <p>
-                        Página de simulação de um carrinho de compras, montada
-                        com HTML, CSS e JS
+                        Jogo da memória com algumas tecnologias e linguagens de programação, construido com Vue.
                       </p>
                     </div>
                   </a>
@@ -77,7 +76,7 @@ class Projects extends React.Component {
                   >
                     <div className="box">
                       <img src={trybeTunes} alt="" />
-                      <div className="text">Trybe Tunes</div>
+                      <div className="text">My Tunes</div>
                       <p>
                         Página de pesquisa de música atraves da API do itunes,
                         montada com React, CSS e JS{' '}
@@ -172,14 +171,13 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://github.com/henriqueambrosano"
+                    href="https://henriquememorygame.vercel.app/"
                   >
                     <div className="box">
-                      <img src={shoppingCart} alt="" />
-                      <div className="text">Shopping Cart</div>
+                      <img src={memoryGame} alt="" />
+                      <div className="text">Juego de memoria</div>
                       <p>
-                        Página de simulación de un carrito de compras, montada
-                        con HTML, CSS y JS
+                        Un juego de memoria de algunas tecnologías y lenguajes de programación, montado con Vue.
                       </p>
                     </div>
                   </a>
@@ -193,7 +191,7 @@ class Projects extends React.Component {
                   >
                     <div className="box">
                       <img src={trybeTunes} alt="" />
-                      <div className="text">Trybe Tunes</div>
+                      <div className="text">My Tunes</div>
                       <p>
                         Página de búsqueda de música a través de la API de
                         iTunes, ensamblado con React, CSS y JS
@@ -286,14 +284,13 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://github.com/henriqueambrosano"
+                    href="https://henriquememorygame.vercel.app/"
                   >
                     <div className="box">
-                      <img src={shoppingCart} alt="" />
-                      <div className="text">Shopping Cart</div>
+                      <img src={memoryGame} alt="" />
+                      <div className="text">Memory Game</div>
                       <p>
-                        Simulation page of a shopping cart, mounted with HTML,
-                        CSS and JS
+                        A memory game of some technologies and programing languages, assembled with Vue.
                       </p>
                     </div>
                   </a>
@@ -307,7 +304,7 @@ class Projects extends React.Component {
                   >
                     <div className="box">
                       <img src={trybeTunes} alt="" />
-                      <div className="text">Trybe Tunes</div>
+                      <div className="text">My Tunes</div>
                       <p>
                         Music search page via itunes API, assembled with React,
                         CSS and JS
