@@ -3,7 +3,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import {
   memoryGame,
-  trybeTunes,
+  myTunes,
   tryunfo,
   shoppingCartReact,
   jamming,
@@ -72,10 +72,10 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://henriqueambrosano-music-player.vercel.app/"
+                    href="https://henriquemusicplayer.vercel.app/"
                   >
                     <div className="box">
-                      <img src={trybeTunes} alt="" />
+                      <img src={myTunes} alt="" />
                       <div className="text">My Tunes</div>
                       <p>
                         Página de pesquisa de música atraves da API do itunes,
@@ -187,10 +187,10 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://henriqueambrosano-music-player.vercel.app/"
+                    href="https://henriquemusicplayer.vercel.app/"
                   >
                     <div className="box">
-                      <img src={trybeTunes} alt="" />
+                      <img src={myTunes} alt="" />
                       <div className="text">My Tunes</div>
                       <p>
                         Página de búsqueda de música a través de la API de
@@ -300,10 +300,10 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://henriqueambrosano-music-player.vercel.app/"
+                    href="https://henriquemusicplayer.vercel.app/"
                   >
                     <div className="box">
-                      <img src={trybeTunes} alt="" />
+                      <img src={myTunes} alt="" />
                       <div className="text">My Tunes</div>
                       <p>
                         Music search page via itunes API, assembled with React,
