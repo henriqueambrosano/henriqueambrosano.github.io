@@ -95,15 +95,13 @@ class Projects extends React.Component {
                       <img src={tryunfo} alt="" />
                       <div className="text">Super Trunfo</div>
                       <p>
-                        Página de um jogo de Super Trunfo, é feita uma
-                        requisição em uma API de pokemons e montada a carta de
-                        acordo com as especificações do usuário{' '}
+                        Página de um jogo de Super Trunfo onde o usuário pode customizar a carta que quer adicionar e pode também filtrar as cartas por tipo.{' '}
                       </p>
                     </div>
                   </a>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <div className="card">
                   <a
                     target="_blank"
@@ -119,8 +117,8 @@ class Projects extends React.Component {
                     </div>
                   </a>
                 </div>
-              </SwiperSlide>
-              <SwiperSlide>
+              </SwiperSlide> */}
+              {/* <SwiperSlide>
                 <div className="card">
                   <a
                     target="_blank"
@@ -135,7 +133,7 @@ class Projects extends React.Component {
                     </div>
                   </a>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <div className="card">
                   <a
@@ -210,15 +208,14 @@ class Projects extends React.Component {
                       <img src={tryunfo} alt="" />
                       <div className="text">Super Trunfo</div>
                       <p>
-                        Página de un juego de Super Trump, se hace una solicitud
-                        en una API de pokemon y armó la tarjeta de acuerdo con
-                        el especificaciones del usuario
+                        Página de un juego de Super Trump, el usuario puede personalizar
+                        la tarjeta que desea agregar y también puede filtrar las tarjetas por tipo.
                       </p>
                     </div>
                   </a>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <div className="card">
                   <a
                     target="_blank"
@@ -248,7 +245,7 @@ class Projects extends React.Component {
                     </div>
                   </a>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <div className="card">
                   <a
@@ -323,15 +320,13 @@ class Projects extends React.Component {
                       <img src={tryunfo} alt="" />
                       <div className="text">Super Trunfo</div>
                       <p>
-                        Page of a Super Trump game, a request is made in a
-                        pokemon API and assembled the card according to the user
-                        specifications
+                        Page of a Super Trump game, the user can customize the card that he wants to add and can also filter the cards by type.
                       </p>
                     </div>
                   </a>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <div className="card">
                   <a
                     target="_blank"
@@ -361,7 +356,7 @@ class Projects extends React.Component {
                     </div>
                   </a>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <div className="card">
                   <a
