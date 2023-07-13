@@ -89,7 +89,7 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://github.com/henriqueambrosano"
+                    href="https://henrique-super-trunfo.vercel.app/"
                   >
                     <div className="box">
                       <img src={tryunfo} alt="" />
@@ -138,7 +138,7 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://github.com/henriqueambrosano"
+                    href="https://henrique-wallet.vercel.app/"
                   >
                     <div className="box">
                       <img src={wallet} alt="" />
@@ -202,7 +202,7 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://github.com/henriqueambrosano"
+                    href="https://henrique-super-trunfo.vercel.app/"
                   >
                     <div className="box">
                       <img src={tryunfo} alt="" />
@@ -250,7 +250,7 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://github.com/henriqueambrosano"
+                    href="https://henrique-wallet.vercel.app/"
                   >
                     <div className="box">
                       <img src={wallet} alt="" />
@@ -314,7 +314,7 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://github.com/henriqueambrosano"
+                    href="https://henrique-super-trunfo.vercel.app/"
                   >
                     <div className="box">
                       <img src={tryunfo} alt="" />
@@ -361,7 +361,7 @@ class Projects extends React.Component {
                 <div className="card">
                   <a
                     target="_blank"
-                    href="https://github.com/henriqueambrosano"
+                    href="https://henrique-wallet.vercel.app/"
                   >
                     <div className="box">
                       <img src={wallet} alt="" />
