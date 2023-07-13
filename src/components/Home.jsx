@@ -17,15 +17,15 @@ class Home extends React.Component {
                 <Typewriter
                   options={{
                     strings: [
-                      'Front-end Developer',
-                      'Back-end Developer',
+                      'Full-stack Developer',
                       'Freelancer',
                       'Programer',
+                      'Tech lover'
                     ],
                     autoStart: true,
                     loop: true,
-                    pauseFor: 900,
-                    delay: 100,
+                    pauseFor: 500,
+                    delay: 80,
                   }}
                 />
               </div>
@@ -39,15 +39,15 @@ class Home extends React.Component {
                 <Typewriter
                   options={{
                     strings: [
-                      'Front-end Developer',
-                      'Back-end Developer',
+                      'Full-stack Developer',
                       'Freelancer',
                       'Programer',
+                      'Tech lover'
                     ],
                     autoStart: true,
                     loop: true,
-                    pauseFor: 900,
-                    delay: 100,
+                    pauseFor: 500,
+                    delay: 80,
                   }}
                 />
               </div>
