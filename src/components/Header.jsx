@@ -29,15 +29,15 @@ class Header extends React.Component {
           <div className="max-width">
             <div className="logo">
               <div className="language-container">
-              {selectedLanguage === 'PT-BR' ? ( 'Idioma') :('Language')}
-              <div className="language">
-                <img
-                  src={brazilFlag}
-                  alt="PT-BR"
-                  onClick={this.changeLanguage}
-                />
-                <img src={usaFlag} alt="EN" onClick={this.changeLanguage} />
-              </div>
+                {selectedLanguage === 'PT-BR' ? ( 'Idioma') :('Language')}
+                <div className="language">
+                  <img
+                    src={brazilFlag}
+                    alt="PT-BR"
+                    onClick={this.changeLanguage}
+                  />
+                  <img src={usaFlag} alt="EN" onClick={this.changeLanguage} />
+                </div>
               </div>
               <a href="#">
                 Portfo<span>lio.</span>
