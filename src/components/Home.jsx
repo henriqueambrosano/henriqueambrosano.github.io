@@ -30,28 +30,6 @@ class Home extends React.Component {
                 />
               </div>
             </div>
-          ) : selectedLanguage === 'ES' ? (
-            <div className="home-content">
-              <div className="text-1">Olá, mi nombre es</div>
-              <div className="text-2">Henrique Ambrosano</div>
-              <div className="text-3">
-                y yo soy{' '}
-                <Typewriter
-                  options={{
-                    strings: [
-                      'Front-end Developer',
-                      'Back-end Developer',
-                      'Freelancer',
-                      'Programer',
-                    ],
-                    autoStart: true,
-                    loop: true,
-                    pauseFor: 900,
-                    delay: 100,
-                  }}
-                />
-              </div>
-            </div>
           ) : (
             <div className="home-content">
               <div className="text-1">Hello, my name is</div>

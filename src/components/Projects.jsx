@@ -5,16 +5,11 @@ import {
   memoryGame,
   myTunes,
   tryunfo,
-  shoppingCartReact,
-  jamming,
   wallet,
 } from '../images/imageExports';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-// import required modules
 import { Pagination } from 'swiper';
 
 class Projects extends React.Component {
@@ -145,118 +140,6 @@ class Projects extends React.Component {
                       <div className="text">Wallet</div>
                       <p>
                         Página para registro e controle de despesas com react e
-                        redux
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              </SwiperSlide>
-            </Swiper>
-          </div>
-        ) : selectedLanguage === 'ES' ? (
-          <div className="max-width">
-            <h2 className="title">Mis proyectos</h2>
-            <Swiper
-              slidesPerView={slidesPerView}
-              spaceBetween={20}
-              pagination={{
-                clickable: true,
-              }}
-              modules={[Pagination]}
-              className="carousel"
-            >
-              <SwiperSlide>
-                <div className="card">
-                  <a
-                    target="_blank"
-                    href="https://henriquememorygame.vercel.app/"
-                  >
-                    <div className="box">
-                      <img src={memoryGame} alt="" />
-                      <div className="text">Juego de memoria</div>
-                      <p>
-                        Un juego de memoria de algunas tecnologías y lenguajes de programación, montado con Vue.
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="card">
-                  <a
-                    target="_blank"
-                    href="https://henriquemusicplayer.vercel.app/"
-                  >
-                    <div className="box">
-                      <img src={myTunes} alt="" />
-                      <div className="text">My Tunes</div>
-                      <p>
-                        Página de búsqueda de música a través de la API de
-                        iTunes, ensamblado con React, CSS y JS
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="card">
-                  <a
-                    target="_blank"
-                    href="https://henrique-super-trunfo.vercel.app/"
-                  >
-                    <div className="box">
-                      <img src={tryunfo} alt="" />
-                      <div className="text">Super Trunfo</div>
-                      <p>
-                        Página de un juego de Super Trump, el usuario puede personalizar
-                        la tarjeta que desea agregar y también puede filtrar las tarjetas por tipo.
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              </SwiperSlide>
-              {/* <SwiperSlide>
-                <div className="card">
-                  <a
-                    target="_blank"
-                    href="https://github.com/henriqueambrosano"
-                  >
-                    <div className="box">
-                      <img src={shoppingCartReact} alt="" />
-                      <div className="text">Carrito de compras - React</div>
-                      <p>
-                        Carrito de compras construido con React y solicitud de
-                        API de Mercado Libre
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="card">
-                  <a
-                    target="_blank"
-                    href="https://github.com/henriqueambrosano"
-                  >
-                    <div className="box">
-                      <img src={jamming} alt="" />
-                      <div className="text">Jamming</div>
-                      <p>Página de búsqueda de música integrada con Spotify</p>
-                    </div>
-                  </a>
-                </div>
-              </SwiperSlide> */}
-              <SwiperSlide>
-                <div className="card">
-                  <a
-                    target="_blank"
-                    href="https://henrique-wallet.vercel.app/"
-                  >
-                    <div className="box">
-                      <img src={wallet} alt="" />
-                      <div className="text">Wallet</div>
-                      <p>
-                        Pagina para registro y control de gastos con react y
                         redux
                       </p>
                     </div>

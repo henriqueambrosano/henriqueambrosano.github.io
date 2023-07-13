@@ -13,7 +13,6 @@ html {
 
 /* navbar styling */
 .max-width {
-  /* max-width: 1300px; */
   padding: 0 80px;
   margin: auto;
 }
@@ -36,6 +35,11 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.navbar .max-width .language-container{
+  color: white;
+  text-align: center;
 }
 
 .navbar .max-width .language {

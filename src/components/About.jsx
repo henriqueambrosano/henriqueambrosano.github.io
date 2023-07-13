@@ -57,55 +57,6 @@ class About extends React.Component {
               </div>
             </div>
           </div>
-        ) : selectedLanguage === 'ES' ? (
-          <div className="max-width">
-            <h2 className="title">Sobre mi</h2>
-            <div className="about-content">
-              <div className="column left">
-                <img src={profilePic} alt="henrique ambrosano" />
-              </div>
-              <div className="column right">
-                <div className="text">
-                  Mi nombre es Henrique y yo soy{' '}
-                  <Typewriter
-                    options={{
-                      strings: [
-                        'Front-end Developer',
-                        'Back-end Developer',
-                        'Freelancer',
-                        'Programer',
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      pauseFor: 900,
-                      delay: 100,
-                    }}
-                  />
-                </div>
-                <p>
-                  Hablando más de mí, tengo 26 años, actualmente soy estudiante
-                  en Trybe (comencé en febrero de 2022), que es una escuela de
-                  programación que entrena a desarrolladores Full-Stack, mi
-                  pronóstico de graduación es en febrero de 2023, pero ahora
-                  mismo quiero empezar a trabajar como desarrollador no solo
-                  para ganar experiencia sino también porque estoy seguro que
-                  tengo mucho que aportar al equipo y a la empresa a la que
-                  acudo trabajar.
-                  <br />
-                  Me apasiona aprender y también enseñar, me gusta mucho
-                  trabajar con metodologías ágiles porque creo que es una manera
-                  mucho más eficiente de entregar un producto exactamente de
-                  acuerdo a lo pedido.
-                  <br />
-                  ¿Mis fortalezas? Soy bastante autodidacta, tengo mucho
-                  facilidad para aprender nuevos contenidos, no estoy satisfecho
-                  hasta que entregue algo que sé que fue hecho de la mejor
-                  manera manera y tengo mucha facilidad y habilidad en la
-                  comunicacion y liderazgo.
-                </p>
-              </div>
-            </div>
-          </div>
         ) : (
           <div className="max-width">
             <h2 className="title">About</h2>

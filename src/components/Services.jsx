@@ -44,44 +44,6 @@ class Services extends React.Component {
               </div>
             </div>
           </div>
-        ) : selectedLanguage === 'ES' ? (
-          <div className="max-width">
-            <h2 className="title">Mis servicios</h2>
-            <div className="serv-content">
-              <div className="card">
-                <div className="box">
-                  <i className="fas fa-paint-brush"></i>
-                  <div className="text">CSS</div>
-                  <p>
-                    Construyo su página exactamente como fue diseñada por
-                    su designer, entregando un sitio web moderno y receptivo
-                  </p>
-                </div>
-              </div>
-              <div className="card">
-                <div className="box">
-                  <i className="fas fa-chart-line"></i>
-                  <div className="text">Optimización para SEO</div>
-                  <p>
-                    Utilizo las mejores prácticas para posicionar su sitio en el
-                    parte superior de las páginas de búsqueda de Google y otros motores
-                    de busqueda
-                  </p>
-                </div>
-              </div>
-              <div className="card">
-                <div className="box">
-                  <i className="fas fa-code"></i>
-                  <div className="text">De 0 a 100</div>
-                  <p>
-                    Desarrollo toda tu página desde cero, entregando todos los
-                    funcionalidades posibles, con un funcionamiento ligero y
-                    rápido que se puede navegar en cualquier dispositivo.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         ) : (
           <div className="max-width">
             <h2 className="title">Services</h2>

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { connect } from 'react-redux';
-import { brazilFlag, spainFlag, usaFlag } from '../images/imageExports';
+import { brazilFlag, usaFlag } from '../images/imageExports';
 import { changeLanguage } from '../redux/actions';
 
 class Header extends React.Component {
@@ -28,14 +28,16 @@ class Header extends React.Component {
         <nav className="navbar">
           <div className="max-width">
             <div className="logo">
+              <div className="language-container">
+              {selectedLanguage === 'PT-BR' ? ( 'Idioma') :('Language')}
               <div className="language">
                 <img
                   src={brazilFlag}
                   alt="PT-BR"
                   onClick={this.changeLanguage}
                 />
-                <img src={spainFlag} alt="ES" onClick={this.changeLanguage} />
                 <img src={usaFlag} alt="EN" onClick={this.changeLanguage} />
+              </div>
               </div>
               <a href="#">
                 Portfo<span>lio.</span>
@@ -71,39 +73,6 @@ class Header extends React.Component {
                 <li>
                   <a href="#contact" className="menu-btn" onClick={this.toggleClass}>
                     Contato
-                  </a>
-                </li>
-              </ul>
-            ) : selectedLanguage === 'ES' ? (
-              <ul className={`menu ${navClass}`}>
-                <li>
-                  <a href="#home" className="menu-btn" onClick={this.toggleClass}>
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#about" className="menu-btn" onClick={this.toggleClass}>
-                    Sobre
-                  </a>
-                </li>
-                <li>
-                  <a href="#services" className="menu-btn" onClick={this.toggleClass}>
-                    Servicios
-                  </a>
-                </li>
-                <li>
-                  <a href="#skills" className="menu-btn" onClick={this.toggleClass}>
-                    Habilidades
-                  </a>
-                </li>
-                <li>
-                  <a href="#projects" className="menu-btn" onClick={this.toggleClass}>
-                    Proyectos
-                  </a>
-                </li>
-                <li>
-                  <a href="#contact" className="menu-btn" onClick={this.toggleClass}>
-                    Contacto
                   </a>
                 </li>
               </ul>
