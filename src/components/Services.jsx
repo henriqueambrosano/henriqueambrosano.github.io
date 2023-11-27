@@ -23,9 +23,9 @@ class Services extends React.Component {
               <div className="card">
                 <div className="box">
                   <i className="fas fa-chart-line"></i>
-                  <div className="text">Otimização para SEO</div>
+                  <div className="text">SEO & performance</div>
                   <p>
-                    Utilizo as melhores práticas para posicionar seu site no
+                    Utilizo as melhores práticas para atingirmos a melhor performance possivel e também posicionar seu site no
                     topo das páginas de pesquisa do google e outros mecanismos
                     de busca.
                   </p>
@@ -61,11 +61,10 @@ class Services extends React.Component {
               <div className="card">
                 <div className="box">
                   <i className="fas fa-chart-line"></i>
-                  <div className="text">SEO Optimization</div>
+                  <div className="text">SEO & Performance</div>
                   <p>
-                    I use best practices to position your site in the
-                    top of google search pages and other engines
-                    of search.
+                    I use best practices to reach the best performance and position your site in the
+                    top of google search pages and other search engines.
                   </p>
                 </div>
               </div>

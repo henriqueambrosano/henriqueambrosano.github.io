@@ -15,8 +15,9 @@ class Contact extends React.Component {
                 <div className="text">Entre em contato</div>
                 <p>
                   Abaixo estão minhas melhores formas de contato e meus links
-                  para LinkedIn e GitHub, fique a vontade para me enviar um
-                  e-mail, um whats-app ou me ligar para conversarmos melhor!
+                  para LinkedIn e GitHub.
+                  <br/>
+                  Fique a vontade para me enviar um e-mail, um whats-app ou me ligar para conversarmos melhor!
                 </p>
                 <div className="icons">
                   <div className="row">
@@ -112,9 +113,9 @@ class Contact extends React.Component {
               <div className="column left">
                 <div className="text">Get in touch</div>
                 <p>
-                  Below are my best ways to contact you and my links.
-                  to LinkedIn and GitHub, feel free to send me a
-                  email, a whats-app or call me so we can talk better!
+                  Below are my links to LinkedIn and GitHub, and also the best ways to contact me.
+                  <br/>
+                  Feel free to send me a email, a whats-app or call me so we can talk better!
                 </p>
                 <div className="icons">
                   <div className="row">

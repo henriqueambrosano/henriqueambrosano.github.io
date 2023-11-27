@@ -17,52 +17,52 @@ class Skills extends React.Component {
                   alguns cursos livres como codecademy, udemy, programadorBr,
                   etc.
                   <br />
-                  As linguagens e frameworks que estudei até agora são, HTML, CSS,
-                  JavaScript, React, Python, Solidity. 
+                  As tecnologias que estudei e trabalhei até agora são, HTML, CSS,
+                  JavaScript, React, Python, Vue, MySQL, etc. 
                   <br />
-                  O gráfico mostra quão habilidoso sou em cada.
+                  O gráfico a seguir mostra meu nivel de dominio em cada uma.
                 </p>
               </div>
               <div className="column right">
                 <div className="bars">
                   <div className="info">
                     <span>HTML</span>
-                    <span>70%</span>
+                    <span>90%</span>
                   </div>
                   <div className="line html"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>CSS</span>
-                    <span>70%</span>
+                    <span>90%</span>
                   </div>
                   <div className="line css"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>JavaScript</span>
-                    <span>70%</span>
+                    <span>85%</span>
                   </div>
                   <div className="line js"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>Python</span>
-                    <span>20%</span>
+                    <span>55%</span>
                   </div>
                   <div className="line python"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
-                    <span>Solidity</span>
-                    <span>5%</span>
+                    <span>Git</span>
+                    <span>80%</span>
                   </div>
-                  <div className="line solidity"></div>
+                  <div className="line git"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>React</span>
-                    <span>60%</span>
+                    <span>70%</span>
                   </div>
                   <div className="line react"></div>
                 </div>
@@ -87,8 +87,8 @@ class Skills extends React.Component {
                   some free courses like codecademy, udemy, programadorBr,
                   etc.
                   <br />
-                  The languages and frameworks I have studied so far are HTML, CSS,
-                  JavaScript, React, Python, Solidity.
+                  The technologies I have studied and worked with so far are HTML, CSS,
+                  JavaScript, React, Python, Vue, MySQL, etc.
                   <br />
                   The graph shows how skilled I'm at each one.
                 </p>
@@ -97,42 +97,42 @@ class Skills extends React.Component {
                 <div className="bars">
                   <div className="info">
                     <span>HTML</span>
-                    <span>70%</span>
+                    <span>90%</span>
                   </div>
                   <div className="line html"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>CSS</span>
-                    <span>70%</span>
+                    <span>90%</span>
                   </div>
                   <div className="line css"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>JavaScript</span>
-                    <span>55%</span>
+                    <span>85%</span>
                   </div>
                   <div className="line js"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>Python</span>
-                    <span>20%</span>
+                    <span>55%</span>
                   </div>
                   <div className="line python"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
-                    <span>Solidity</span>
-                    <span>5%</span>
+                    <span>Git</span>
+                    <span>80%</span>
                   </div>
-                  <div className="line solidity"></div>
+                  <div className="line git"></div>
                 </div>
                 <div className="bars">
                   <div className="info">
                     <span>React</span>
-                    <span>40%</span>
+                    <span>70%</span>
                   </div>
                   <div className="line react"></div>
                 </div>

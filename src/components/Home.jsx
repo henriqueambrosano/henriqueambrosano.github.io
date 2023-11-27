@@ -17,10 +17,9 @@ class Home extends React.Component {
                 <Typewriter
                   options={{
                     strings: [
-                      'Full-stack Developer',
-                      'Freelancer',
-                      'Programer',
-                      'Tech lover'
+                      'Desenvolvedor Full-stack',
+                      'Programador',
+                      'Amante da tecnologia',
                     ],
                     autoStart: true,
                     loop: true,
@@ -40,7 +39,6 @@ class Home extends React.Component {
                   options={{
                     strings: [
                       'Full-stack Developer',
-                      'Freelancer',
                       'Programer',
                       'Tech lover'
                     ],

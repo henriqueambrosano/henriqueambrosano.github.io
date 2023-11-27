@@ -21,30 +21,24 @@ class About extends React.Component {
                   <Typewriter
                     options={{
                       strings: [
-                        'Front-end Developer',
-                        'Back-end Developer',
-                        'Freelancer',
-                        'Programer',
+                        'Desenvolvedor Full-stack',
+                        'Programador',
+                        'Amante da tecnologia',
                       ],
                       autoStart: true,
                       loop: true,
                       pauseFor: 900,
-                      delay: 100,
+                      delay: 30,
                     }}
                   />
                 </div>
                 <p>
-                  Falando mais sobre mim, tenho 26 anos, atualmente sou
-                  estudante da Trybe(comecei em fevereiro de 2022), que é uma
-                  escola de programação que forma desenvolvedores Full-Stack,
-                  minha previsão de formatura é em fevereiro de 2023, porem
-                  neste momento ja quero começar a trabalhar como desenvolvedor
-                  não só para ganhar experiência mas também porque tenho certeza
-                  que tenho muito a agregar ao time e a empresa que eu for
-                  trabalhar.
+                  Falando mais sobre mim, tenho 27 anos, atualmente sou
+                  estudante da FIAP no curso de Análise de sitemas e inteligência artificial.
+                  Ja atuei como desenvolvedor Full-stack em uma fábrica de softwares e estou sempre buscando oportunidades onde posso aplicar meus conhecimentos e desenvolver novas habilidades.
                   <br />
                   Sou apaixonado por aprender e também por ensinar, gosto muito
-                  de trabalhar com metodologias ágeis pois acredito ser uma
+                  de trabalhar com metodologias ágeis por serem uma
                   forma bem mais eficiente para entregar um produto exatamente
                   como foi pedido.
                   <br />
@@ -70,36 +64,31 @@ class About extends React.Component {
                   <Typewriter
                     options={{
                       strings: [
-                        'Front-end Developer',
-                        'Back-end Developer',
-                        'Freelancer',
+                        'Full-stack Developer',
                         'Programer',
+                        'Tech lover',
                       ],
                       autoStart: true,
                       loop: true,
                       pauseFor: 900,
-                      delay: 100,
+                      delay: 30,
                     }}
                   />
                 </div>
                 <p>
-                  Talking more about myself, I am 26 years old, currently I am
-                  student at Trybe (I started in Feb 2022), which is a
-                  programming school that trains Full-Stack developers, my
-                  graduation forecast is in february 2023, but right now I want
-                  to start working as a developer not only to gain experience
-                  but also because I'm sure that I have a lot to add to the time
-                  and company I stop to work.
+                  Telling more about myself, I am 27 years old, currently
+                  student at FIAP in the System Analysis and Artificial Intelligence course.
+                  I've worked as a full-stack developer in a software factory and I'm always looking for opportunities where I can apply my knowledge and develop new skills.
                   <br />
                   I am passionate about learning and also about teaching, I
                   really like to work with agile methodologies because I believe
-                  it is a much more efficient way to deliver a product exactly
+                  it is the most effective way to deliver a product exactly
                   as requested.
                   <br />
                   My strengths? I'm pretty self-taught, I have a lot ease in
                   learning new content, I am not satisfied until I deliver
                   something that I know was done in the best way and I have a
-                  lot of facility and ability in communication and leadership.
+                  lot of practice and ability in communication and leadership.
                 </p>
               </div>
             </div>
